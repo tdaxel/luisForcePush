@@ -71,6 +71,8 @@
       name="unset.png" relativePath="DefaultUI/StateShower/unset.png"/>
   <externalResources uuid="_zlGTUNQ0EeepMeauXm2JIg"
       name="DefaultBGSettings.png" relativePath="DefaultUI/PanelBGImages/DefaultBGSettings.png"/>
+  <externalResources uuid="_AF8FAADoEeiP2s5lJI4tKQ"
+      name="DefaultBGTopBar.png" relativePath="DefaultUI/PanelBGImages/DefaultBGTopBar.png"/>
   <productModel href=".model/product_model.xml#_GD7MEKTqEea8d6P1JTl01w"/>
   <exporterModel href=".model/exporter_model.xml#_GD4IwKTqEea8d6P1JTl01w"/>
   <guiModel href=".model/gui_model.xml#_GDdSAKTqEea8d6P1JTl01w"/>

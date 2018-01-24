@@ -11,9 +11,9 @@
     <fontStyles uuid="_ndmlIGpyEeSfCJnJCtaXOA" name="DefaultFontStyleTabSub"
         bold="true" color="128,128,128" size="13"/>
     <fontStyles uuid="_9Tzp4G_4EeSb6NXyjhnDPg" name="DefaultFontStyleValue"
-        color="0,0,0" size="12"/>
+        size="12"/>
     <fontStyles uuid="__Rrr0G_4EeSb6NXyjhnDPg" name="DefaultFontStyleLabel"
-        color="0,0,0" size="12"/>
+        size="12"/>
     <fontStyles uuid="_3o-awHAIEeSePcy3DK4xYQ" name="DefaultFontStyleH1"
         bold="true" color="0,32,91" size="14"/>
     <imageStyles uuid="_ySA6gEljEeSsxfjC0m3AcA" name="DefaultLogo">
@@ -48,7 +48,7 @@
     <buttonStyles uuid="_Wgat8a-3EeOhZfF6nj1a5w" name="DefaultButtonStyleLAF"
         borderSize="-1" useLAF="true"/>
     <panelStyles uuid="_6uuVEGq1EeSU5fRCDlCvNA" name="DefaultXYPanelStyleToolBar"
-        bgColor="255,255,255">
+        bgColor="(255,255,255)">
       <bgImage href="../model.build#_OpnWMGq2EeSU5fRCDlCvNA"/>
     </panelStyles>
     <panelStyles xsi:type="gui:FlowPanelStyle" uuid="_-kp9EFc_EeWo-40Qyxiobw"
@@ -65,15 +65,13 @@
           right="15"/>
     </panelStyles>
     <panelStyles xsi:type="gui:GroupFlowPanelStyle"
-        uuid="_67RHUNENEeeiAoe5mqAy-g" name="DefaultGroupFlowPanelStyleToolBar"
-        bgColor="255,255,255">
+        uuid="_67RHUNENEeeiAoe5mqAy-g" name="DefaultGroupFlowPanelStyleToolBar">
       <bgImage href="../model.build#_OpnWMGq2EeSU5fRCDlCvNA"/>
       <margins uuid="_67RHUdENEeeiAoe5mqAy-g" right="15"
           left="15"/>
     </panelStyles>
     <panelStyles xsi:type="gui:SingleItemPanelStyle"
-        uuid="_1d_e8NEQEeeiAoe5mqAy-g" name="DefaultSingleItemPanelStyleInserter"
-        bgColor="255,255,255">
+        uuid="_1d_e8NEQEeeiAoe5mqAy-g" name="DefaultSingleItemPanelStyleInserter">
       <bgImage href="../model.build#_zlGTUNQ0EeepMeauXm2JIg"/>
       <margins uuid="_1d_e8dEQEeeiAoe5mqAy-g" top="15"
           right="15" bottom="15" left="15"/>
