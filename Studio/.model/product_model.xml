@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:ProductModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    deletable="false" uuid="_GD7MEKTqEea8d6P1JTl01w"
+    debugGuiOnPreview="true" debugGuiFramed="true" debugLevelPreview="DEBUG">
+  <facets xsi:type="appl:TemplateInsertFacet" uuid="_GIFTUKTqEea8d6P1JTl01w"
+      id="COMPONENTS"/>
+  <components href="components/_eqSg8Fc5EeWo-40Qyxiobw.xml#_eqSg8Fc5EeWo-40Qyxiobw"/>
+  <components href="components/_q8cPEFc5EeWo-40Qyxiobw.xml#_q8cPEFc5EeWo-40Qyxiobw"/>
+  <components href="components/_KH3RkHABEeSk24oMIozLgA.xml#_KH3RkHABEeSk24oMIozLgA"/>
+  <components href="components/_Z4wkQFc8EeWo-40Qyxiobw.xml#_Z4wkQFc8EeWo-40Qyxiobw"/>
+  <world href="world.xml#_8fNuADTNEeSDp-UE12WecQ"/>
+  <domains uuid="_2ZqEUEluEeSo87hK2eA7dQ" name="features">
+    <typeSet uuid="_GIF6YqTqEea8d6P1JTl01w" bitSet="458767"/>
+    <values uuid="_4l1A8EluEeSo87hK2eA7dQ" name="black"
+        editable="false" visibility="300"/>
+    <values uuid="_41X40EluEeSo87hK2eA7dQ" name="red"
+        editable="false" visibility="300"/>
+    <values uuid="_5dqA0EluEeSo87hK2eA7dQ" name="blue"
+        editable="false" visibility="300"/>
+    <values uuid="_6ajt8EluEeSo87hK2eA7dQ" name="green"
+        editable="false" visibility="300"/>
+  </domains>
+  <features deletable="false" uuid="N65557" name="DefaultCursorColor"
+      color="(255,151,0,255)"/>
+  <features deletable="false" uuid="N65562" name="DefaultTransparent"
+      color="(0,0,0,0)"/>
+  <features deletable="false" uuid="N65567" name="DefaultBgColor"
+      color="(255,255,255,255)"/>
+  <features deletable="false" uuid="N65572" name="DefaultColor"
+      color="(0,0,0,255)"/>
+  <features uuid="_Kp1yEcUWEeKomJW_sT1cVA" name="white"
+      color="(255,255,255,255)"/>
+  <features uuid="_Dvuz8ce5EeK1ILHtYeZxPw" name="black"
+      displayName="Black" color="(0,0,0,255)"/>
+  <features uuid="_42WaIce5EeK1ILHtYeZxPw" name="red"
+      displayName="Red"/>
+  <features uuid="_IBz3sce6EeK1ILHtYeZxPw" name="green"
+      displayName="Green" color="(0,255,0,255)"/>
+  <features uuid="_QXiMgce6EeK1ILHtYeZxPw" name="yellow"
+      color="(255,255,0,255)"/>
+  <features uuid="_Yoadkce6EeK1ILHtYeZxPw" name="blue"
+      displayName="Blue" color="(0,0,255,255)"/>
+  <features uuid="_PJJhEcyMEeKPWN8WJ_Qi1w" name="gray"
+      color="(100,100,100,100)"/>
+  <features uuid="_dOfPsXkVEeOQkM8a0LjIiQ" name="brown"
+      displayName="Brown" color="(148,95,3,255)"/>
+  <features uuid="_xMl9EAHyEeS27ulxLc-PaQ" name="orange"
+      color="(255,151,0,255)"/>
+  <features uuid="_zyWRMGQEEeSDd6k47owxsA" name="transparent"
+      color="(0,0,0,0)"/>
+  <tables deletable="false" uuid="_cqseUXSwEeO0QL2ZiJsN_Q"
+      name="DefaultPriorityHigh">
+    <rows uuid="_GIGhgaTqEea8d6P1JTl01w" in="init" out="100"/>
+    <rows uuid="_GIGhgqTqEea8d6P1JTl01w" in="user" out="100"/>
+    <rows uuid="_GIGhg6TqEea8d6P1JTl01w" in="selected"
+        out="-1"/>
+    <rows uuid="_GIGhhKTqEea8d6P1JTl01w" in="consequence"
+        out="200"/>
+    <rows uuid="_GIGhhaTqEea8d6P1JTl01w" in="group"
+        out="300"/>
+    <rows uuid="_GIHIgKTqEea8d6P1JTl01w" in="BASE" out="200"/>
+    <rows uuid="_GIHIgaTqEea8d6P1JTl01w" in="SYSTEM"
+        out="400"/>
+    <rows uuid="_GIHIgqTqEea8d6P1JTl01w" in="DEFAULT"
+        out="100"/>
+    <inTypeSet uuid="_GIHIg6TqEea8d6P1JTl01w" bitSet="458767"/>
+    <outTypeSet uuid="_GIHIhKTqEea8d6P1JTl01w" bitSet="458767"/>
+  </tables>
+  <tables deletable="false" uuid="_x2NZ0XSwEeO0QL2ZiJsN_Q"
+      name="DefaultPriorityMedium">
+    <rows uuid="_GIHIiKTqEea8d6P1JTl01w" in="init" out="10"/>
+    <rows uuid="_GIHIiaTqEea8d6P1JTl01w" in="user" out="10"/>
+    <rows uuid="_GIHIiqTqEea8d6P1JTl01w" in="selected"
+        out="-1"/>
+    <rows uuid="_GIHIi6TqEea8d6P1JTl01w" in="consequence"
+        out="200"/>
+    <rows uuid="_GIHIjKTqEea8d6P1JTl01w" in="group"
+        out="300"/>
+    <rows uuid="_GIHIjaTqEea8d6P1JTl01w" in="BASE" out="200"/>
+    <rows uuid="_GIHIjqTqEea8d6P1JTl01w" in="SYSTEM"
+        out="400"/>
+    <rows uuid="_GIHIj6TqEea8d6P1JTl01w" in="DEFAULT"
+        out="10"/>
+    <inTypeSet uuid="_GIHIkKTqEea8d6P1JTl01w" bitSet="458767"/>
+    <outTypeSet uuid="_GIHIkaTqEea8d6P1JTl01w" bitSet="458767"/>
+  </tables>
+  <tables deletable="false" uuid="_2AZBYw3CEeCuJc61zSuWFg"
+      name="DefaultPriorityStandard">
+    <rows uuid="_GIHIlaTqEea8d6P1JTl01w" in="init" out="-10"/>
+    <rows uuid="_GIHIlqTqEea8d6P1JTl01w" in="user" out="5"/>
+    <rows uuid="_GIHIl6TqEea8d6P1JTl01w" in="selected"
+        out="-1"/>
+    <rows uuid="_GIHImKTqEea8d6P1JTl01w" in="consequence"
+        out="200"/>
+    <rows uuid="_GIHImaTqEea8d6P1JTl01w" in="group"
+        out="300"/>
+    <rows uuid="_GIHImqTqEea8d6P1JTl01w" in="BASE" out="200"/>
+    <rows uuid="_GIHIm6TqEea8d6P1JTl01w" in="SYSTEM"
+        out="400"/>
+    <rows uuid="_GIHvkKTqEea8d6P1JTl01w" in="DEFAULT"
+        out="-10"/>
+    <inTypeSet uuid="_GIHvkaTqEea8d6P1JTl01w" bitSet="4"/>
+    <outTypeSet uuid="_GIHvkqTqEea8d6P1JTl01w" bitSet="4"/>
+  </tables>
+  <tables deletable="false" uuid="_BYJdsXSxEeO0QL2ZiJsN_Q"
+      name="DefaultPriorityWeak">
+    <rows uuid="_GIHvlqTqEea8d6P1JTl01w" in="init" out="-10"/>
+    <rows uuid="_GIHvl6TqEea8d6P1JTl01w" in="user" out="-9"/>
+    <rows uuid="_GIHvmKTqEea8d6P1JTl01w" in="selected"
+        out="-1"/>
+    <rows uuid="_GIHvmaTqEea8d6P1JTl01w" in="consequence"
+        out="200"/>
+    <rows uuid="_GIHvmqTqEea8d6P1JTl01w" in="group"
+        out="300"/>
+    <rows uuid="_GIHvm6TqEea8d6P1JTl01w" in="BASE" out="200"/>
+    <rows uuid="_GIHvnKTqEea8d6P1JTl01w" in="SYSTEM"
+        out="400"/>
+    <rows uuid="_GIHvnaTqEea8d6P1JTl01w" in="DEFAULT"
+        out="-10"/>
+    <inTypeSet uuid="_GIHvnqTqEea8d6P1JTl01w" bitSet="458767"/>
+    <outTypeSet uuid="_GIHvn6TqEea8d6P1JTl01w" bitSet="458767"/>
+  </tables>
+  <modeldescription uuid="_GIIWoKTqEea8d6P1JTl01w" pmid="BuildModel">
+    <version uuid="_GIJkwKTqEea8d6P1JTl01w" major="1"/>
+  </modeldescription>
+</comp:ProductModel>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gui:GUIModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:appl="http://com.virtubuild/schemas/appl.ecore"
+    xmlns:gui="http://virtubild.com/schemas/gui.ecore"
+    deletable="false" uuid="_GDdSAKTqEea8d6P1JTl01w">
+  <style deletable="false" uuid="_y1CuFP7MEd-ok_zz1c7U2w"
+      name="Styles">
+    <fontStyles uuid="_lKkykGpyEeSfCJnJCtaXOA" name="DefaultFontStyleTab"
+        bold="true" color="128,128,128" size="16"/>
+    <fontStyles uuid="_ndmlIGpyEeSfCJnJCtaXOA" name="DefaultFontStyleTabSub"
+        bold="true" color="128,128,128" size="13"/>
+    <fontStyles uuid="_9Tzp4G_4EeSb6NXyjhnDPg" name="DefaultFontStyleValue"
+        color="0,0,0" size="12"/>
+    <fontStyles uuid="__Rrr0G_4EeSb6NXyjhnDPg" name="DefaultFontStyleLabel"
+        color="0,0,0" size="12"/>
+    <fontStyles uuid="_3o-awHAIEeSePcy3DK4xYQ" name="DefaultFontStyleH1"
+        bold="true" color="0,32,91" size="14"/>
+    <imageStyles uuid="_ySA6gEljEeSsxfjC0m3AcA" name="DefaultLogo">
+      <path href="../model.build#_octfcGp3EeSSX_Brc-X50g"/>
+    </imageStyles>
+    <itemStyles deletable="false" uuid="_yDmtsHAIEeSePcy3DK4xYQ"
+        name="DefaultItemStyle" font="_3o-awHAIEeSePcy3DK4xYQ"
+        length="200"/>
+    <itemStyles uuid="_hdKZoNErEeeGsJtGzNJHVg" name="DefaultTextStyle"
+        font="__Rrr0G_4EeSb6NXyjhnDPg"/>
+    <tioItemStyles xsi:type="gui:TIOStandardStyle" uuid="_5VOUcG_4EeSb6NXyjhnDPg"
+        name="DefaultTIOStyleVertical" fontText="__Rrr0G_4EeSb6NXyjhnDPg"
+        fontValue="_9Tzp4G_4EeSb6NXyjhnDPg" itemSpace="3"
+        stateShowerYAlignment="25" stateShowerStyle="_eTiFMG_3EeSb6NXyjhnDPg"
+        stateShowerSpace="5" textLength="280" valueLength="280"
+        design="VERTICAL"/>
+    <tioItemStyles xsi:type="gui:TIOStandardStyle" deletable="false"
+        uuid="_bbutcW_-EeSk24oMIozLgA" name="default_tio_standard_item_style"
+        fontText="__Rrr0G_4EeSb6NXyjhnDPg" fontValue="_9Tzp4G_4EeSb6NXyjhnDPg"
+        itemSpace="5" stateShowerYAlignment="5" stateShowerStyle="_eTiFMG_3EeSb6NXyjhnDPg"
+        stateShowerSpace="5" valueLength="100"/>
+    <stateShowerStyles uuid="_eTiFMG_3EeSb6NXyjhnDPg"
+        name="DefaultStateShowerStyle" enableUnset="true">
+      <missingImage href="../model.build#_vhfwkG_4EeSb6NXyjhnDPg"/>
+      <notUserSetLockImage href="../model.build#_sjyCQG_4EeSb6NXyjhnDPg"/>
+      <notUserSetUnlockImage href="../model.build#_vhfwkG_4EeSb6NXyjhnDPg"/>
+      <userSetLockImage href="../model.build#_vA6MAG_4EeSb6NXyjhnDPg"/>
+      <userSetUnlockImage href="../model.build#_r8gm4G_4EeSb6NXyjhnDPg"/>
+      <unsetImage href="../model.build#_2apLwCdCEeahG-Pj7x0wPA"/>
+    </stateShowerStyles>
+    <buttonStyles uuid="_3QgI8bbqEeK305n3PlGMhg" name="DefaultButtonStyleImage"/>
+    <buttonStyles uuid="_Wgat8a-3EeOhZfF6nj1a5w" name="DefaultButtonStyleLAF"
+        borderSize="-1" useLAF="true"/>
+    <panelStyles uuid="_6uuVEGq1EeSU5fRCDlCvNA" name="DefaultXYPanelStyleToolBar"
+        bgColor="255,255,255">
+      <bgImage href="../model.build#_OpnWMGq2EeSU5fRCDlCvNA"/>
+    </panelStyles>
+    <panelStyles xsi:type="gui:FlowPanelStyle" uuid="_-kp9EFc_EeWo-40Qyxiobw"
+        name="DefaultFlowPanelStyleBottom" bgColor="245,245,245"
+        columnSpacing="30" rowSpace="5">
+      <bgImage href="../model.build#_8uEBgGqzEeSf2roTWK8_Lg"/>
+      <margins uuid="_s-84MND6EeeiAoe5mqAy-g" top="30"
+          bottom="20" left="20"/>
+    </panelStyles>
+    <panelStyles xsi:type="gui:GroupFlowPanelStyle"
+        uuid="_70lycNEBEeeiAoe5mqAy-g" name="DefaultGroupFlowPanelStyleTopbar"
+        bgColor="0,31,87">
+      <margins uuid="_70lycdEBEeeiAoe5mqAy-g" top="7"
+          right="15"/>
+    </panelStyles>
+    <panelStyles xsi:type="gui:GroupFlowPanelStyle"
+        uuid="_67RHUNENEeeiAoe5mqAy-g" name="DefaultGroupFlowPanelStyleToolBar"
+        bgColor="255,255,255">
+      <bgImage href="../model.build#_OpnWMGq2EeSU5fRCDlCvNA"/>
+      <margins uuid="_67RHUdENEeeiAoe5mqAy-g" right="15"
+          left="15"/>
+    </panelStyles>
+    <panelStyles xsi:type="gui:SingleItemPanelStyle"
+        uuid="_1d_e8NEQEeeiAoe5mqAy-g" name="DefaultSingleItemPanelStyleInserter"
+        bgColor="255,255,255">
+      <bgImage href="../model.build#_zlGTUNQ0EeepMeauXm2JIg"/>
+      <margins uuid="_1d_e8dEQEeeiAoe5mqAy-g" top="15"
+          right="15" bottom="15" left="15"/>
+    </panelStyles>
+    <panelStyles xsi:type="gui:FlowPanelStyle" uuid="_BkKnwNErEeeGsJtGzNJHVg"
+        name="DefaultFlowPanelStylePopUps" bgColor="242,242,242"
+        singleColumn="true">
+      <margins uuid="_BkKnwdErEeeGsJtGzNJHVg" top="5"
+          left="5"/>
+    </panelStyles>
+    <tabStyles uuid="_wHX3UGpyEeSfCJnJCtaXOA" name="DefaultTabStyle"
+        nonSelectedFont="_lKkykGpyEeSfCJnJCtaXOA" selectedFont="_lKkykGpyEeSfCJnJCtaXOA"
+        textplacement="8,8">
+      <startImage href="../model.build#_Zq_D0Gq0EeSf2roTWK8_Lg"/>
+      <fillerImage href="../model.build#_X8JjcGq0EeSf2roTWK8_Lg"/>
+      <endImage href="../model.build#_XEvaUGq0EeSf2roTWK8_Lg"/>
+      <selectedImage href="../model.build#_Y66RwGq0EeSf2roTWK8_Lg"/>
+      <nonSelectedImage href="../model.build#_aWxLwGq0EeSf2roTWK8_Lg"/>
+      <disabledImage href="../model.build#_WP5dAGq0EeSf2roTWK8_Lg"/>
+    </tabStyles>
+    <tabStyles uuid="_wXvOkGpyEeSfCJnJCtaXOA" name="DefaultTabStyleSub"
+        nonSelectedFont="_ndmlIGpyEeSfCJnJCtaXOA" selectedFont="_ndmlIGpyEeSfCJnJCtaXOA"
+        textplacement="8,8">
+      <startImage href="../model.build#_BfR4UGq1EeSU5fRCDlCvNA"/>
+      <fillerImage href="../model.build#_AQBP4Gq1EeSU5fRCDlCvNA"/>
+      <endImage href="../model.build#__rY40Gq0EeSU5fRCDlCvNA"/>
+      <selectedImage href="../model.build#_A6kBsGq1EeSU5fRCDlCvNA"/>
+      <nonSelectedImage href="../model.build#_CLWUIGq1EeSU5fRCDlCvNA"/>
+      <disabledImage href="../model.build#__DzUYGq0EeSU5fRCDlCvNA"/>
+    </tabStyles>
+    <unitConversionStyles uuid="_FNWCcElsEeSga5qFy3girQ"
+        name="mm" pattern="#" postfix="mm" prefix=""/>
+  </style>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_2sAOkbcHEeKEW-Ajb6cWbQ"
+      name="TopBar" style="_y1CuFP7MEd-ok_zz1c7U2w"
+      unitType="SINGLEPANEL">
+    <panels uuid="_GDl04KTqEea8d6P1JTl01w">
+      <panels uuid="_-yLEcbcHEeKEW-Ajb6cWbQ" name="TopBar"
+          isInit="true" panelType="ROWPANEL" style="_70lycNEBEeeiAoe5mqAy-g">
+        <panelGroups uuid="_46gR0ND_EeeiAoe5mqAy-g"
+            name="Left" order="1"/>
+        <panelGroups uuid="_46gR0dD_EeeiAoe5mqAy-g"
+            name="Center" order="2"/>
+        <panelGroups uuid="_46gR0tD_EeeiAoe5mqAy-g"
+            name="Right" order="3">
+          <items xsi:type="gui:Image" uuid="_8yAH0ND_EeeiAoe5mqAy-g"
+              name="logo" style="_ySA6gEljEeSsxfjC0m3AcA"/>
+        </panelGroups>
+      </panels>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:ViewerGUIUnit" uuid="_mc-ZMbcdEeKEW-Ajb6cWbQ"
+      name="Viewer" style="_y1CuFP7MEd-ok_zz1c7U2w"/>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_HuNhEa-7EeOhZfF6nj1a5w"
+      name="Settings" unitType="SINGLEPANEL">
+    <panels uuid="_GDoRIaTqEea8d6P1JTl01w">
+      <panels uuid="_NI2k0a-7EeOhZfF6nj1a5w" name="init"
+          isInit="true" style="_-kp9EFc_EeWo-40Qyxiobw"
+          toa="world"/>
+      <panels uuid="_fYFUEGq1EeSU5fRCDlCvNA" name="PanelSettings_link_component"
+          style="_-kp9EFc_EeWo-40Qyxiobw" toa="link_component">
+        <items xsi:type="gui:TIOStandardItem" uuid="_PBB5kG_5EeSb6NXyjhnDPg"
+            name="02_height" editable="false" order="2"
+            style="_bbutcW_-EeSk24oMIozLgA" text="Height:"
+            varName="height" type="INPUTFIELD"/>
+        <items xsi:type="gui:TIOStandardItem" uuid="_GYzsQHAJEeSePcy3DK4xYQ"
+            name="03_width" editable="false" order="3"
+            style="_bbutcW_-EeSk24oMIozLgA" text="Width:"
+            varName="width" type="INPUTFIELD"/>
+      </panels>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_RzV8sGq1EeSU5fRCDlCvNA"
+      name="Inserter" unitType="SINGLEPANEL">
+    <panels uuid="_GDo4M6TqEea8d6P1JTl01w">
+      <panels uuid="_dG0cEGq1EeSU5fRCDlCvNA" name="PanelInsert"
+          isInit="true" panelType="SINGLEITEMPANEL"
+          style="_1d_e8NEQEeeiAoe5mqAy-g">
+        <items xsi:type="gui:InserterBar" uuid="_wDKZkHAAEeSk24oMIozLgA"
+            name="InserterBar" compgfxref="_1se1sHAEEeSePcy3DK4xYQ"
+            hideEmptyTabs="true" hideIllegal="true">
+          <guiLayout uuid="_GDqtYKTqEea8d6P1JTl01w"
+              height="600" width="180"/>
+          <position uuid="_GDqtYaTqEea8d6P1JTl01w"/>
+          <guiBarStyle uuid="_GDrUcKTqEea8d6P1JTl01w"
+              colorForeground="128,128,128" font="_ndmlIGpyEeSfCJnJCtaXOA"
+              horizontal="LEFT"/>
+          <subMenus uuid="_I9xdAHABEeSk24oMIozLgA" name="SubMenu"
+              headerText="Insert" varTable="">
+            <extraData xsi:type="appl:ExtraDataTable"
+                uuid="_xZ8TcFc4EeWo-40Qyxiobw" name="ComponentsInMenu">
+              <rows uuid="_GDsikKTqEea8d6P1JTl01w" in="link_owner_component"
+                  out="1"/>
+              <rows uuid="_GDtJoKTqEea8d6P1JTl01w" in="link_component"
+                  out="2"/>
+              <rows uuid="_GDtJoaTqEea8d6P1JTl01w" in="sub_component"
+                  out="3"/>
+              <rows uuid="_GDtJoqTqEea8d6P1JTl01w" in="part_of_component"
+                  out="4"/>
+              <inTypeSet uuid="_GDtJo6TqEea8d6P1JTl01w"
+                  bitSet="458767"/>
+              <outTypeSet uuid="_GDtJpKTqEea8d6P1JTl01w"
+                  bitSet="458767"/>
+            </extraData>
+          </subMenus>
+        </items>
+      </panels>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_tHd1MGq1EeSU5fRCDlCvNA"
+      name="ToolBarLeft" unitType="SINGLEPANEL">
+    <panels uuid="_GDuXwqTqEea8d6P1JTl01w">
+      <panels uuid="_webxAGq1EeSU5fRCDlCvNA" name="ToolBarButtonsLeft"
+          isInit="true" panelType="ROWPANEL" style="_67RHUNENEeeiAoe5mqAy-g">
+        <panelGroups uuid="_MqF5gNEOEeeiAoe5mqAy-g"
+            name="Left" order="1">
+          <items xsi:type="gui:Button" uuid="_AGCTMG_0EeSb6NXyjhnDPg"
+              name="ShowViewPointInit" xPosition="20"
+              yPosition="5" style="_3QgI8bbqEeK305n3PlGMhg">
+            <toolTip uuid="_GDvl4KTqEea8d6P1JTl01w"
+                text="Show Initial View Point"/>
+            <image href="../model.build#_9ZIoEG_zEeSb6NXyjhnDPg"/>
+            <imageDown href="../model.build#_91soQG_zEeSb6NXyjhnDPg"/>
+            <abstractAction xsi:type="gui:ActionRef"
+                uuid="_DJdn8G_0EeSb6NXyjhnDPg" name="ShowViewPointInit"
+                actionRef="_E7b74G_0EeSb6NXyjhnDPg"/>
+          </items>
+        </panelGroups>
+        <panelGroups uuid="_MqF5gdEOEeeiAoe5mqAy-g"
+            name="Center" order="2">
+          <items xsi:type="gui:ReadyIndicator" uuid="_QbrUwNEOEeeiAoe5mqAy-g"
+              name="ReadyIndicator1" xPosition="297"
+              yPosition="3" style="_yDmtsHAIEeSePcy3DK4xYQ">
+            <statusShow uuid="_QbrUwdEOEeeiAoe5mqAy-g"
+                width="335">
+              <statusDefs uuid="_QbrUwtEOEeeiAoe5mqAy-g"
+                  name="Error" color="(255,255,255)"
+                  text="Oh no, something's wrong with this model. Please fix it."/>
+              <statusDefs uuid="_QbrUw9EOEeeiAoe5mqAy-g"
+                  name="Working - No indicator" color="(255,255,255)"
+                  text="" status="WORKING"/>
+              <statusDefs uuid="_QbrUxNEOEeeiAoe5mqAy-g"
+                  name="Ready_OK - No indicator" color="(255,255,255)"
+                  text="" status="READY"/>
+            </statusShow>
+          </items>
+        </panelGroups>
+        <panelGroups uuid="_MqF5gtEOEeeiAoe5mqAy-g"
+            name="Right" order="3">
+          <items xsi:type="gui:Button" uuid="_RKneYNEOEeeiAoe5mqAy-g"
+              name="Delete" order="5" style="_3QgI8bbqEeK305n3PlGMhg">
+            <toolTip uuid="_RKneYdEOEeeiAoe5mqAy-g"
+                text="Delete Selected Component"/>
+            <image href="../model.build#_8X9e8G_zEeSb6NXyjhnDPg"/>
+            <imageDown href="../model.build#_86e9MG_zEeSb6NXyjhnDPg"/>
+            <abstractAction xsi:type="gui:ActionRef"
+                uuid="_RKneYtEOEeeiAoe5mqAy-g" name="Delete"
+                actionRef="_Z6pgwG_0EeSb6NXyjhnDPg"/>
+          </items>
+        </panelGroups>
+      </panels>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_sjnaYNEPEeeiAoe5mqAy-g"
+      name="ToolBarRight" unitType="SINGLEPANEL">
+    <panels uuid="_sjnaYtEPEeeiAoe5mqAy-g">
+      <panels uuid="_sjnaY9EPEeeiAoe5mqAy-g" name="ToolBarButtonsRight"
+          isInit="true" panelType="XYPANEL" style="_6uuVEGq1EeSU5fRCDlCvNA">
+        <items xsi:type="gui:Button" uuid="_sjnab9EPEeeiAoe5mqAy-g"
+            name="ShowLog" xPosition="165" yPosition="5"
+            style="_3QgI8bbqEeK305n3PlGMhg">
+          <toolTip uuid="_sjnacNEPEeeiAoe5mqAy-g" text="Check configurator log for errors"/>
+          <image href="../model.build#_c5_0AHYZEeSV1N5l7j34iw"/>
+          <imageDown href="../model.build#_pk_bwHYgEeSHELBrgOlIgg"/>
+          <abstractAction xsi:type="gui:ActionRef" uuid="_sjnacdEPEeeiAoe5mqAy-g"
+              name="ShowLog" actionRef="_zliX0HYZEeSV1N5l7j34iw"/>
+        </items>
+        <items xsi:type="gui:Button" uuid="_sjnactEPEeeiAoe5mqAy-g"
+            name="ShowScriptLog" xPosition="140" yPosition="5"
+            style="_3QgI8bbqEeK305n3PlGMhg">
+          <toolTip uuid="_sjnac9EPEeeiAoe5mqAy-g" text="Check calculation script log for errors"/>
+          <image href="../model.build#_c5_0AHYZEeSV1N5l7j34iw"/>
+          <imageDown href="../model.build#_pk_bwHYgEeSHELBrgOlIgg"/>
+          <abstractAction xsi:type="gui:ActionRef" uuid="_sjnadNEPEeeiAoe5mqAy-g"
+              name="Action_Reference" actionRef="_kj9W4JnQEeWJgbXuDLQitQ"/>
+        </items>
+      </panels>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_JVekwNEnEeeGsJtGzNJHVg"
+      name="PopUp_ComponentLink" unitType="SINGLEPANEL">
+    <panels uuid="_Lovn4NEnEeeGsJtGzNJHVg">
+      <panels uuid="_L9tyUNEnEeeGsJtGzNJHVg" name="Panel_PopUp_ComponentLink"
+          isInit="true" style="_BkKnwNErEeeGsJtGzNJHVg"
+          toa="all">
+        <items xsi:type="gui:Text" uuid="_3JCssNEqEeeGsJtGzNJHVg"
+            name="PopUp_Header" style="_yDmtsHAIEeSePcy3DK4xYQ"
+            text="Component"/>
+        <items xsi:type="gui:StandardItem" uuid="_bx2coNErEeeGsJtGzNJHVg"
+            name="Standard_Item" order="1" style="_hdKZoNErEeeGsJtGzNJHVg"
+            varName="me" type="LABEL"/>
+      </panels>
+    </panels>
+  </guiUnits>
+  <guiUnits xsi:type="gui:GUIUnit" uuid="_7h-TENNfEee4Q7NokZIK1A"
+      name="PopUp_SubPart" unitType="SINGLEPANEL">
+    <panels uuid="_LeCHINNgEee4Q7NokZIK1A">
+      <panels uuid="_Ng-2UNNgEee4Q7NokZIK1A" name="Panel_PopUp_SubComponent"
+          isInit="true" style="_BkKnwNErEeeGsJtGzNJHVg"
+          toa="sub_component">
+        <items xsi:type="gui:Text" uuid="_Ng-2UdNgEee4Q7NokZIK1A"
+            name="PopUp_Header" style="_yDmtsHAIEeSePcy3DK4xYQ"
+            text="Subcomponent"/>
+        <items xsi:type="gui:StandardItem" uuid="_Ng-2UtNgEee4Q7NokZIK1A"
+            name="PopUp_Text" order="1" style="_hdKZoNErEeeGsJtGzNJHVg"
+            varName="component_number_string" type="LABEL"/>
+      </panels>
+      <panels uuid="_faAGUNNgEee4Q7NokZIK1A" name="Panel_PopUp_SubPart"
+          style="_BkKnwNErEeeGsJtGzNJHVg" toa="part_of_component">
+        <items xsi:type="gui:Text" uuid="_faAGUdNgEee4Q7NokZIK1A"
+            name="PopUp_Header" style="_yDmtsHAIEeSePcy3DK4xYQ"
+            text="Subcomponent"/>
+        <items xsi:type="gui:StandardItem" uuid="_faAGUtNgEee4Q7NokZIK1A"
+            name="PopUp_Text" order="1" style="_hdKZoNErEeeGsJtGzNJHVg"
+            varName="component_number_string" type="LABEL"/>
+      </panels>
+    </panels>
+  </guiUnits>
+  <frame uuid="_g71an3CvEeSsYaj_bb2fSA" name="Frame"
+      title="Build Configurator" icon="customization/doNotDelete/Build.png"
+      backgroundColor="(255,255,255)" height="600" width="900"
+      defaultScreenLayout="_BldhsND-EeeiAoe5mqAy-g">
+    <systemEventDialog uuid="_GDz3UKTqEea8d6P1JTl01w"
+        text="Are you sure you want to close the Build configurator?"
+        title="Bye Bye - hope to see you again soon"/>
+    <progressindication uuid="_GD0eYKTqEea8d6P1JTl01w">
+      <animations uuid="_GN_GYHYqEeSHELBrgOlIgg" name="ProgressWheel"
+          text="In Progress" animationtype="WHEEL"/>
+    </progressindication>
+  </frame>
+  <tables uuid="_1se1sHAEEeSePcy3DK4xYQ" name="ImagesForInserterBar">
+    <rows uuid="_GD1FdKTqEea8d6P1JTl01w" in="link_owner_component"
+        out="DefaultUI/add.png"/>
+    <rows uuid="_GD1FdaTqEea8d6P1JTl01w" in="link_component"
+        out="DefaultUI/add.png"/>
+    <rows uuid="_GD1FdqTqEea8d6P1JTl01w" in="sub_component"
+        out="DefaultUI/add.png"/>
+    <rows uuid="_GD1Fd6TqEea8d6P1JTl01w" in="part_of_component"
+        out="DefaultUI/add.png"/>
+    <inTypeSet uuid="_GD1FeKTqEea8d6P1JTl01w" bitSet="458767"/>
+    <outTypeSet uuid="_GD1FeaTqEea8d6P1JTl01w" bitSet="458767"/>
+  </tables>
+  <dialogs xsi:type="gui:UnitDialog" uuid="_IWKc0NEnEeeGsJtGzNJHVg"
+      name="PopUp_ComponentLink" popupmode="FIXED" unitId="_JVekwNEnEeeGsJtGzNJHVg"
+      offset="15,15" dialogWidth="200" dialogHeight="100">
+    <facets xsi:type="gui:SelectedTOASFacet" uuid="_JVi5YNErEeeGsJtGzNJHVg">
+      <selectedToas>link_component,</selectedToas>
+      <selectedToas>link_owner_component</selectedToas>
+    </facets>
+  </dialogs>
+  <dialogs xsi:type="gui:UnitDialog" uuid="_36PXYNNfEee4Q7NokZIK1A"
+      name="PopUp_SubPart" popupmode="REUSE" unitId="_7h-TENNfEee4Q7NokZIK1A"
+      offset="45,-115" dialogWidth="200" dialogHeight="100">
+    <facets xsi:type="gui:SelectedTOASFacet" uuid="_E3DzINNgEee4Q7NokZIK1A">
+      <selectedToas>sub_component,</selectedToas>
+      <selectedToas>part_of_component</selectedToas>
+    </facets>
+  </dialogs>
+  <actiondefinitions uuid="_GD1sgKTqEea8d6P1JTl01w">
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_E7b74G_0EeSb6NXyjhnDPg"
+        name="ShowViewPointInit" actionValue="ViewPoint_initial"
+        actionType="SETVIEWPOINT"/>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_Z6pgwG_0EeSb6NXyjhnDPg"
+        name="Delete" actionType="DELETE"/>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_zliX0HYZEeSV1N5l7j34iw"
+        name="ShowLog" actionValue="savepath:logs/configurator.log"
+        actionType="URL"/>
+    <actionDefinitions xsi:type="gui:ItemAction" uuid="_kj9W4JnQEeWJgbXuDLQitQ"
+        name="ShowScriptLog" actionValue="savepath:logs/configurator_calcscript.log"
+        actionType="URL"/>
+  </actiondefinitions>
+  <screenLayouts uuid="_BldhsND-EeeiAoe5mqAy-g" name="MainScreen"
+      columns="2" rows="4" columnWeights="1,1" rowWeights="1,1,1,1"
+      columnSizes="200,200" rowSizes="50,26,100,70"
+      columnResizable="1,0" rowResizable="0,0,1,0">
+    <containers xsi:type="gui:UnitContainer" uuid="_rE2mEND-EeeiAoe5mqAy-g"
+        name="TopBar" cellSpan="2,1" unitId="_2sAOkbcHEeKEW-Ajb6cWbQ">
+      <margins uuid="_rE2mEdD-EeeiAoe5mqAy-g"/>
+    </containers>
+    <containers xsi:type="gui:UnitContainer" uuid="_vUZvsND-EeeiAoe5mqAy-g"
+        name="ToolBarLeft" position="0,1" unitId="_tHd1MGq1EeSU5fRCDlCvNA">
+      <margins uuid="_vUZvsdD-EeeiAoe5mqAy-g"/>
+    </containers>
+    <containers xsi:type="gui:UnitContainer" uuid="_zC6BwND-EeeiAoe5mqAy-g"
+        name="Settings" position="0,3" cellSpan="2,1"
+        unitId="_HuNhEa-7EeOhZfF6nj1a5w">
+      <margins uuid="_zC6BwdD-EeeiAoe5mqAy-g"/>
+    </containers>
+    <containers xsi:type="gui:UnitContainer" uuid="_hS230NEPEeeiAoe5mqAy-g"
+        name="Viewer" position="0,2" unitId="_mc-ZMbcdEeKEW-Ajb6cWbQ">
+      <margins uuid="_hS230dEPEeeiAoe5mqAy-g"/>
+    </containers>
+    <containers xsi:type="gui:UnitContainer" uuid="_nLvWwNEPEeeiAoe5mqAy-g"
+        name="Inserter" position="1,2" unitId="_RzV8sGq1EeSU5fRCDlCvNA">
+      <margins uuid="_nLvWwdEPEeeiAoe5mqAy-g"/>
+    </containers>
+    <containers xsi:type="gui:UnitContainer" uuid="_GwFHQNEQEeeiAoe5mqAy-g"
+        name="ToolBarRight" position="1,1" unitId="_sjnaYNEPEeeiAoe5mqAy-g">
+      <margins uuid="_GwFHQdEQEeeiAoe5mqAy-g"/>
+    </containers>
+  </screenLayouts>
+</gui:GUIModel>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_Z4wkQFc8EeWo-40Qyxiobw" name="part_of_component"
+    componentClass="PARTOF" partOf="true" displayName="Part Of Component"
+    deleteMode="NEVER">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_gSe7kNNiEee4Q7NokZIK1A"
+      name="parent_number_string" visibility="800">
+    <domain uuid="_gSe7kdNiEee4Q7NokZIK1A" name="local"
+        visibility="300">
+      <typeSet uuid="_gSe7ktNiEee4Q7NokZIK1A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <calculation uuid="_u9BdYNNiEee4Q7NokZIK1A" name="Calculation"
+      visibility="800">
+    <text>component_number_string = parent_number_string + &quot; (part)&quot;;</text>
+  </calculation>
+  <geometry deletable="false" uuid="_Z4wkQVc8EeWo-40Qyxiobw"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDPolyline" uuid="_jzquMFc8EeWo-40Qyxiobw"
+        name="Polyline1" strokeWidth="2" points="((0,0)(18,0)(0,20)(-18,0)(0,0))">
+      <color href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+      <bgColor href="../product_model.xml#_Dvuz8ce5EeK1ILHtYeZxPw"/>
+    </twoDElement>
+    <parentPlugs uuid="_Z4wkQlc8EeWo-40Qyxiobw" name="ParentPlug"/>
+  </geometry>
+</comp:Component>

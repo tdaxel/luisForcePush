@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_eqSg8Fc5EeWo-40Qyxiobw" name="link_owner_component"
+    componentClass="LINKOWNER" displayName="Link Owner"
+    insertFree="true">
+  <cursorTwoD uuid="_WWlTcFc7EeWo-40Qyxiobw" name="Cursor2"
+      twoDElementsColor="_-LmWIFc6EeWo-40Qyxiobw _GOiR0Fc7EeWo-40Qyxiobw">
+    <onColor href="../product_model.xml#N65557"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_eqSg8Vc5EeWo-40Qyxiobw"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDBox" uuid="_-LmWIFc6EeWo-40Qyxiobw"
+        name="Box2" height="30.0" width="110.0" cursorsUsingMeForColor="_WWlTcFc7EeWo-40Qyxiobw"
+        strokeWidth="2">
+      <bgColor href="../product_model.xml#N65567"/>
+      <color href="../product_model.xml#N65572"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDText" uuid="_GOiR0Fc7EeWo-40Qyxiobw"
+        name="Text2" translation="(8,22)" cursorsUsingMeForColor="_WWlTcFc7EeWo-40Qyxiobw"
+        text="Link Owner" fontSize="16">
+      <color href="../product_model.xml#N65572"/>
+      <bgColor href="../product_model.xml#N65562"/>
+    </twoDElement>
+    <parentPlugs uuid="_eqSg8lc5EeWo-40Qyxiobw" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_jjN-wFc5EeWo-40Qyxiobw" name="subLink"
+      initValue="NONE" public="false" type="SUBLINK"
+      components="link_component, NONE, " lineInsertVariable="true">
+    <facets xsi:type="comp:LineControllerFacet" uuid="_GC6fcKTqEea8d6P1JTl01w"/>
+    <facets xsi:type="comp:PlugFacet" uuid="_GC7GgKTqEea8d6P1JTl01w"
+        position="(0,0,40)"/>
+    <domain uuid="_jjN-wVc5EeWo-40Qyxiobw" name="local"
+        visibility="300">
+      <typeSet uuid="_GC7tkqTqEea8d6P1JTl01w" bitSet="65536"/>
+      <values uuid="_vnea0Fc5EeWo-40Qyxiobw" name="link_component"
+          editable="false" visibility="300"/>
+      <values uuid="N65629" name="NONE" editable="false"
+          visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>

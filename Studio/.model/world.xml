@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:World xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    deletable="false" uuid="_8fNuADTNEeSDp-UE12WecQ"
+    name="world">
+  <role uuid="_qucXoHAAEeSk24oMIozLgA" name="insertfree"
+      customType="insertfree">
+    <domain uuid="_qucXoXAAEeSk24oMIozLgA" name="local"
+        visibility="300">
+      <typeSet uuid="_GINPIKTqEea8d6P1JTl01w" bitSet="65536"/>
+      <values uuid="_7GD-AFc5EeWo-40Qyxiobw" name="link_owner_component"
+          editable="false" visibility="300"/>
+    </domain>
+  </role>
+  <viewPointsTwoD uuid="_x_QZwElnEeSga5qFy3girQ" name="ViewPoint_initial"
+      fieldOfView="784" isInitial="true" positionX="200"
+      positionY="200"/>
+</comp:World>

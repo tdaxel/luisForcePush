@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:Component xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:comp="http://virtubuil.com/schemas/comp.ecore"
+    uuid="_KH3RkHABEeSk24oMIozLgA" name="sub_component"
+    displayName="Sub Component">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_sHeYYHAGEeSePcy3DK4xYQ"
+      name="number_prev" visibility="800" initValue="0">
+    <domain uuid="_sHeYYXAGEeSePcy3DK4xYQ" name="local"
+        visibility="300">
+      <typeSet uuid="_GDE3gqTqEea8d6P1JTl01w" bitSet="458754"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_hwikUHAHEeSePcy3DK4xYQ"
+      name="my_number" visibility="800" initValue="2">
+    <domain uuid="_hwikUXAHEeSePcy3DK4xYQ" name="local"
+        visibility="300">
+      <typeSet uuid="_GDE3iKTqEea8d6P1JTl01w" bitSet="4"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_WSVsUNNiEee4Q7NokZIK1A"
+      name="component_number_string" visibility="800">
+    <domain uuid="_WSVsUdNiEee4Q7NokZIK1A" name="local"
+        visibility="300">
+      <typeSet uuid="_WSVsUtNiEee4Q7NokZIK1A" bitSet="393220"/>
+    </domain>
+  </variables>
+  <calculation uuid="_y665sNOLEeeFsdFJmAgGJA" name="Calculation"
+      visibility="800">
+    <text>my_number = number_prev + 1;&#xD;
+component_number_string = &quot;Number: &quot; + my_number;</text>
+  </calculation>
+  <cursorTwoD uuid="_l2WtsHAIEeSePcy3DK4xYQ" name="Cursor2D1"
+      twoDElementsColor="_ODQ94HAGEeSePcy3DK4xYQ _3HUloFc7EeWo-40Qyxiobw">
+    <onColor href="../product_model.xml#N65557"/>
+    <onColorBg href="../product_model.xml#N65562"/>
+  </cursorTwoD>
+  <geometry deletable="false" uuid="_KH3RkXABEeSk24oMIozLgA"
+      name="root">
+    <twoDElement xsi:type="comp:TwoDEllipse" uuid="_3HUloFc7EeWo-40Qyxiobw"
+        name="Ellipse1" height="50.0" width="50.0" cursorsUsingMeForColor="_l2WtsHAIEeSePcy3DK4xYQ"
+        strokeWidth="2">
+      <bgColor href="../product_model.xml#_zyWRMGQEEeSDd6k47owxsA"/>
+      <color href="../product_model.xml#N65572"/>
+    </twoDElement>
+    <twoDElement xsi:type="comp:TwoDText" uuid="_ODQ94HAGEeSePcy3DK4xYQ"
+        name="2DText1" translation="(8,21)" cursorsUsingMeForColor="_l2WtsHAIEeSePcy3DK4xYQ"
+        text="0" fontSize="16">
+      <facets xsi:type="comp:TwoDDynamicTextFacet" uuid="_GDWkUKTqEea8d6P1JTl01w"
+          textDynamic="my_number"/>
+      <color href="../product_model.xml#N65572"/>
+      <bgColor href="../product_model.xml#N65562"/>
+    </twoDElement>
+    <parentPlugs uuid="_KH3RknABEeSk24oMIozLgA" name="ParentPlug"/>
+  </geometry>
+  <roles uuid="_feZ0gHAFEeSePcy3DK4xYQ" name="subs"
+      components="sub_component, NONE, ">
+    <facets xsi:type="comp:ChainFacet" uuid="_GDXLYKTqEea8d6P1JTl01w">
+      <chains uuid="_ATyWIHAGEeSePcy3DK4xYQ" name="my_number"
+          value=" " chained="number_prev" refVar="my_number"/>
+    </facets>
+    <facets xsi:type="comp:PlugFacet" uuid="_GDYZgaTqEea8d6P1JTl01w"
+        position="(0,0,60)"/>
+    <domain uuid="_feZ0gXAFEeSePcy3DK4xYQ" name="local"
+        visibility="300">
+      <typeSet uuid="_GDZAkKTqEea8d6P1JTl01w" bitSet="65536"/>
+      <values uuid="_iToVMHAFEeSePcy3DK4xYQ" name="sub_component"
+          editable="false" visibility="300"/>
+      <values uuid="N65932" name="NONE" editable="false"
+          visibility="300"/>
+    </domain>
+  </roles>
+  <roles uuid="_85BCAFc8EeWo-40Qyxiobw" name="part_of"
+      initValue="NONE" components="part_of_component, NONE, ">
+    <facets xsi:type="comp:PlugFacet" uuid="_GDZAl6TqEea8d6P1JTl01w"
+        position="(25,0,25)"/>
+    <facets xsi:type="comp:ChainFacet" uuid="_dfvuMNNiEee4Q7NokZIK1A">
+      <chains uuid="_enQI0NNiEee4Q7NokZIK1A" name="component_number_string"
+          value="" chained="parent_number_string" refVar="component_number_string"/>
+    </facets>
+    <domain uuid="_85BCAVc8EeWo-40Qyxiobw" name="local"
+        visibility="300">
+      <typeSet uuid="_GDZnoKTqEea8d6P1JTl01w" bitSet="65536"/>
+      <values uuid="_-vYGsFc8EeWo-40Qyxiobw" name="part_of_component"
+          editable="false" visibility="300"/>
+      <values uuid="N65964" name="NONE" editable="false"
+          visibility="300"/>
+    </domain>
+  </roles>
+</comp:Component>
